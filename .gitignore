@@ -1,0 +1,8 @@
+.idea/
+.k8s/**/secret-*.yaml
+
+node_modules
+build
+
+npm-debug.log*
+*.rsa
