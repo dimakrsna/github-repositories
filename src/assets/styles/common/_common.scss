@@ -1,0 +1,17 @@
+.page-wrapper {
+  padding: 20px;
+}
+
+.users-list {
+  thead th {
+    font-weight: bold;
+  }
+}
+
+.search {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px 10px 20px;
+  width: 250px;
+  margin-bottom: 15px;
+}

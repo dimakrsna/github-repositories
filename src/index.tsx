@@ -5,6 +5,7 @@ import { ErrorBoundary } from '@view/shared/ErrorBoundary'
 import { store } from '@store/store'
 import { Routes } from '@view/routes'
 import Notify from '@view/shared/Notify'
+import '@assets/styles/index.scss' 
 
 interface Props { }
 
