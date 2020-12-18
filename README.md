@@ -14,5 +14,5 @@ npm install
 npm run start
 ```
 
-[Demo page](https://dimakrsna.github.io/github-repositories/dist/index.html)
+[Demo page](https://github-repositories-zeta.vercel.app)
 
