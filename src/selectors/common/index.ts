@@ -8,11 +8,11 @@ const errorMessage = createSelector(common, data => data.errorMessage)
 const successMessage = createSelector(common, data => data.successMessage)
 
 export const deepEqualSelector = createSelectorCreator(
-    defaultMemoize,
-    isEqual,
+  defaultMemoize,
+  isEqual,
 )
 
 export default {
-    errorMessage,
-    successMessage,
+  errorMessage,
+  successMessage,
 }

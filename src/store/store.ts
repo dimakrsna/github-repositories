@@ -3,13 +3,15 @@ import { composeWithDevTools } from 'redux-devtools-extension'
 import createSagaMiddleware from 'redux-saga'
 import { rootSaga } from '@sagas/index'
 import common from '@store/common'
+import repositories from '@store/repositories'
 
 const appReducer = combineReducers({
-    common,
+  common,
+  repositories,
 })
 
 const rootReducer = (state, action) => {
-    return appReducer(state, action)
+  return appReducer(state, action)
 }
 
 const sagaMiddleware = createSagaMiddleware()
